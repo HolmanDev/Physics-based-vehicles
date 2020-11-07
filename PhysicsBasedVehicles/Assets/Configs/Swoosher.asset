@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec1db5fa396bcd4090aa418d84af12d, type: 3}
+  m_Name: Swoosher
+  m_EditorClassIdentifier: 
+  codeName: Swoosher
+  displayName: Swoosher
+  thrustSL: 160000
+  thrustVac: 0
+  gimbalLimit: 0
+  weight: 1700
+  propellant: 1
+  prop: {fileID: 0}
+  prefab: {fileID: 0}
+  ignitionSound: Swoosher starting
+  burningSound: Swoosher Burning
+  shutdownSound: Swoosher shutdown
+  plume: {fileID: 5014060330959122224, guid: 959c4153fc948be46b71ddacd5b72dba, type: 3}
+  plumePositionOffset: {x: 0, y: 0, z: 0}
+  plumeRotationOffset: {x: 0, y: 0, z: 0}
+  _groundDust: {fileID: 1290802688969163259, guid: 2fd929435d2155a47ac79af1d7b56dc3,
+    type: 3}
+  localThrustDirection: {x: 0, y: 0, z: -1}

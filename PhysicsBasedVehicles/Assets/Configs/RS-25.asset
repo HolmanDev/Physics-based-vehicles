@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec1db5fa396bcd4090aa418d84af12d, type: 3}
+  m_Name: RS-25
+  m_EditorClassIdentifier: 
+  codeName: RS-25
+  displayName: RS-25 (SSME)
+  thrustSL: 1860000
+  thrustVac: 2279000
+  gimbalLimit: 10.5
+  weight: 3527
+  propellant: 0
+  prop: {fileID: 0}
+  prefab: {fileID: 0}
+  ignitionSound: RS-25 ignition
+  burningSound: RS-25 running
+  shutdownSound: 
+  plume: {fileID: 4703746148673482772, guid: c7817f03b30c14c45a0c07dbe08131f9, type: 3}
+  plumePositionOffset: {x: 0, y: -6.93, z: 0}
+  plumeRotationOffset: {x: -90, y: 0, z: 0}
+  _groundDust: {fileID: 1290802688969163259, guid: 2fd929435d2155a47ac79af1d7b56dc3,
+    type: 3}
+  localThrustDirection: {x: 0, y: -1, z: 0}

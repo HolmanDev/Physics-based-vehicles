@@ -1,0 +1,3 @@
+Prefixes:
+	T = Type (Used for general part types, such as "TEngine" or "TStructuralPart")
+	Base = abstract class
