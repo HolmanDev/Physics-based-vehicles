@@ -1,0 +1,2 @@
+Prefixes:
+	Base = abstract class

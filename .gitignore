@@ -9,9 +9,17 @@
 /PhysicsBasedVehicles/[Bb]uilds/
 /PhysicsBasedVehicles/[Ll]ogs/
 /PhysicsBasedVehicles/[Mm]emoryCaptures/
+/PhysicsBasedVehicles_V2/[Ll]ibrary/
+/PhysicsBasedVehicles_V2/[Tt]emp/
+/PhysicsBasedVehicles_V2/[Oo]bj/
+/PhysicsBasedVehicles_V2/[Bb]uild/
+/PhysicsBasedVehicles_V2/[Bb]uilds/
+/PhysicsBasedVehicles_V2/[Ll]ogs/
+/PhysicsBasedVehicles_V2/[Mm]emoryCaptures/
 
 # Never ignore Asset meta data
 !/PhysicsBasedVehicles/[Aa]ssets/**/*.meta
+!/PhysicsBasedVehicles_V2/[Aa]ssets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*

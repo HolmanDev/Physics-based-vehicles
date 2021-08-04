@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ec1db5fa396bcd4090aa418d84af12d, type: 3}
+  m_Name: F119
+  m_EditorClassIdentifier: 
+  mass: 1769
+  explosion: {fileID: 109323534124344248, guid: 815e80446788350428a10ca698b60650,
+    type: 3}
+  explosionVelocity: 50
+  aerodynamicsData:
+    liftMultiplier: 1
+    dragMultiplier: 1
+    area: 1
+    localAerodynamicCenter: {x: 0, y: 0, z: 0}
+    liftCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  centerOfMass: {x: 0, y: 0, z: 0}
+  localRightDirection: {x: 1, y: 0, z: 0}
+  localForwardDirection: {x: 0, y: 0, z: 1}
+  codeName: F119
+  displayName: Pratt & Whitney F119
+  thrustSL: 156000
+  thrustVac: 0
+  gimbalLimit: 0
+  propellant: 1
+  prop: {fileID: 0}
+  prefab: {fileID: 0}
+  ignitionSound: F119 starting
+  burningSound: F119 Burning
+  shutdownSound: F119 shutdown
+  plume: {fileID: 5014060330959122224, guid: bae516b7e71e0234bb785ddf26543d91, type: 3}
+  plumePositionOffset: {x: 0, y: 0, z: 0}
+  plumeRotationOffset: {x: 0, y: 0, z: 0}
+  _groundDust: {fileID: 3965201829266905249, guid: 64aa4942ace13e3438e7edf03401e740,
+    type: 3}
+  localThrustDirection: {x: 0, y: 0, z: -1}

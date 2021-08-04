@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f20c492ad3437449f7b639cff5627d, type: 3}
+  m_Name: Aileron
+  m_EditorClassIdentifier: 
+  mass: 100
+  explosion: {fileID: 109323534124344248, guid: 815e80446788350428a10ca698b60650,
+    type: 3}
+  explosionVelocity: 50
+  aerodynamicsData:
+    liftMultiplier: 1.5
+    dragMultiplier: 1
+    area: 2
+    localAerodynamicCenter: {x: 0, y: 0, z: -0.1}
+    liftCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.18007888
+        value: 0.000015217811
+        inSlope: 0.30894408
+        outSlope: 0.30894408
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.31162712
+      - serializedVersion: 3
+        time: -0.13836691
+        value: -0.002902031
+        inSlope: -0.40580282
+        outSlope: -0.40580282
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.5249313
+        outWeight: 0.08246924
+      - serializedVersion: 3
+        time: -0.088806525
+        value: -0.0015635677
+        inSlope: -0.08564641
+        outSlope: -0.08564641
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.17255147
+      - serializedVersion: 3
+        time: -0.022271872
+        value: -0.033979177
+        inSlope: 0.04071126
+        outSlope: 0.04071126
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22025968
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.000019130995
+        value: 0.10123669
+        inSlope: 24.604683
+        outSlope: 24.604683
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.37170592
+        outWeight: 0.39217272
+      - serializedVersion: 3
+        time: 0.022113299
+        value: 1.0001757
+        inSlope: 3.08712
+        outSlope: 3.08712
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.50401735
+        outWeight: 0.16023822
+      - serializedVersion: 3
+        time: 0.09002873
+        value: -0.00011623558
+        inSlope: -0.110388555
+        outSlope: -0.110388555
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.16771285
+        outWeight: 0.1663722
+      - serializedVersion: 3
+        time: 0.1802446
+        value: 0.0061745523
+        inSlope: 0.13448226
+        outSlope: 0.13448226
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.17539316
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -0.1797428
+        value: 0.016938508
+        inSlope: -0.1520897
+        outSlope: -0.1520897
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.16561872
+      - serializedVersion: 3
+        time: -0.09017232
+        value: 1.000982
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.00013162184
+        value: 0.014585555
+        inSlope: 0.17497565
+        outSlope: 0.17497565
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13880473
+        outWeight: 0.4631259
+      - serializedVersion: 3
+        time: 0.09006488
+        value: 1.0013121
+        inSlope: 0.02577083
+        outSlope: 0.02577083
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.72038907
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.1802095
+        value: 0.016787425
+        inSlope: 0.69132066
+        outSlope: 0.69132066
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10302345
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 1
+      m_RotationOrder: 4
+  centerOfMass: {x: 0, y: 0, z: 0}
+  localRightDirection: {x: 1, y: 0, z: 0}
+  localForwardDirection: {x: 0, y: 0, z: 1}
